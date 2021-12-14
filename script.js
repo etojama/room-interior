@@ -1,6 +1,9 @@
 const right = document.querySelector(".rt");
 const left = document.querySelector(".lt");
 const target = document.querySelector("#target-bg");
+const nav = document.querySelector("#nav");
+const hamburger = document.querySelector("#hamburger");
+const ul = document.querySelector("ul");
 
 let count = 1;
 
@@ -24,3 +27,10 @@ left.addEventListener("click", () => {
     left.style.color = "orange";
   }
 });
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+  hamburger.classList.toggle("active");
+  ul.classList.toggle("active");
+}

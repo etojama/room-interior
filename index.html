@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Room interiors</title>
+    <title>Room Interiors</title>
 
     <link
       rel="stylesheet"
@@ -19,13 +19,26 @@
     <div class="level-1">
       <div class="level-1__area-1" id="target-bg">
         <h1 class="level-1__area-1-text">room</h1>
-        <nav class="level-1__area-1-nav">
+        <nav class="level-1__area-1-nav" id="nav">
           <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">shop</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">contact</a></li>
+            <li class="level-1__area-1__nav-item">
+              <a class="level-1__area-1__nav-link" href="#">home</a>
+            </li>
+            <li class="level-1__area-1__nav-item">
+              <a class="level-1__area-1__nav-link" href="#">shop</a>
+            </li>
+            <li class="level-1__area-1__nav-item">
+              <a class="level-1__area-1__nav-link" href="#">about</a>
+            </li>
+            <li class="level-1__area-1__nav-item">
+              <a class="level-1__area-1__nav-link" href="#">contact</a>
+            </li>
           </ul>
+          <div class="level-1__area-1__hamburger" id="hamburger">
+            <span id="one" class="level-1__area-1__hamburger-bar"></span>
+            <span id="two" class="level-1__area-1__hamburger-bar"></span>
+            <span id="three" class="level-1__area-1__hamburger-bar"></span>
+          </div>
         </nav>
       </div>
 
@@ -41,13 +54,14 @@
           love.
         </p>
         <h3 class="level-1__area-2-subtext">Shop now <span>&rarr;</span></h3>
+
         <div class="level-1__area-2-movements">
           <i class="fas fa-chevron-left lt"></i>
           <i class="fas fa-chevron-right rt"></i>
         </div>
       </section>
     </div>
-    <!-- ------------------------- -->
+    <!-- -------------------------------------------- -->
     <div class="level-2">
       <img
         class="level-2-img1"
