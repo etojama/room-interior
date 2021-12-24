@@ -169,6 +169,7 @@ li {
             box-shadow: 0 10px 27px rgba(0, 0, 0, 0.5);
     background-color: #fff;
     color: #000;
+    z-index: 1000;
   }
 }
 
@@ -185,7 +186,7 @@ li {
 @media only screen and (max-width: 600px) {
   .level-1__area-1__hamburger {
     display: block;
-    position: absolute;
+    position: fixed;
     right: 1.5rem;
     top: 1.5rem;
     cursor: pointer;
